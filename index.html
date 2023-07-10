@@ -5,51 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Profile</title>
     <style>
+      *{
+        padding: auto;
+        margin: auto;
+      }
      header {
          color:black; background-color:rgb(220, 220, 243);
       }
-    </style>
-    <style>
       .Link{
         text-transform: uppercase;
         text-decoration: none;
+        margin-right: 10px;
       }
+        .name,
+        .MOB,
+        .mail,
+        .resume{
+          margin-right: 10px;
+          margin-left: 10px;
+        }
+        .social{
+          margin-left: 5px;
+        }
+        .follow{
+          margin-right: 10px;
+          margin-left: 10px;
+        }
+        .list li{
+          display: inline-block;
+        }
     </style>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
-  <body>
-    
-    <h2>My Profile Details</h2>
-   <header>
-    <i class="fa fa-user-circle">Dinesh Mane</i> &nbsp;&nbsp;&nbsp;
-    <i class="fa fa-phone-square">78 2911 2330</i> &nbsp;&nbsp;&nbsp;
-    <i class="fa fa-envelope-square">dineshmane272@gmail.com</i> &nbsp;&nbsp;&nbsp; 
-    <i class="fa fa-download" aria-hidden="true"></i>
-      <a href="Dinesh Mane Resume 27-3.pdf" target="mydetails">Download Resume</a>
+  <body  >
+    <h2 style="font-size: 20; color: rgb(223, 32, 134);">My Profile Details</h2>
+   <header >
+    <span class="name">
+      <ul class="list" >
+        <li><i class="fa fa-user-circle" ><span class="name">Dinesh Mane</span></i> </span></li>
+        <li><span class="MOB">
+          <i class="fa fa-phone-square"><span class="name">78 2911 2330</span></i> </span></li>
+        <li><span class="mail">
+          <i class="fa fa-envelope-square"><span class="name">dineshmane272@gmail.com</span></i> </span></li>
+        <li><span class="resume">
+          <i class="fa fa-download" aria-hidden="true"></i></li>
+          <li><a href="Dinesh Mane Resume 27-3.pdf" target="mydetails">Download Resume</a></span></li>
+      </ul>   
     <br>
    </header>
-    &nbsp;&nbsp;&nbsp; </body>
+     </body>
     <br />
     <nav class="Link">
-      <a href="home.html" target="mydetails"  class="Link">HOME</a> &nbsp;&nbsp;&nbsp;
-      <a href="techStack.html" target="mydetails" class="Link" >TECHSTACK</a>&nbsp;&nbsp;&nbsp;
-      <a href="project.html" target="mydetails" class="Link" >Project</a> &nbsp;&nbsp;&nbsp;
-      <a href="education.html" target="mydetails" class="Link" >Education</a> &nbsp;&nbsp;&nbsp;
-      <a href="aboutMe.html" target="mydetails" class="Link" >ABOUTME</a> &nbsp;&nbsp;&nbsp;
+      <ul class="list">
+        <li><a href="home.html" target="mydetails"  class="Link">HOME</a></li>
+        <li><a href="techStack.html" target="mydetails" class="Link" >TECHSTACK</a></li>
+        <li><a href="project.html" target="mydetails" class="Link" >Project</a></li>
+        <li><a href="education.html" target="mydetails" class="Link" >Education</a></li>
+        <li><a href="aboutMe.html" target="mydetails" class="Link" >ABOUTME</a></li>
+      </ul>  
     </nav>
     <br />
     <br />
-    <iframe height="500" width="800" name="mydetails"></iframe ><br>
-    <footer>
-    <span>Follow Me On</span>&nbsp;&nbsp;&nbsp;
-    <a href="https://www.linkedin.com/login" target="_blank">
-      <i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;
-      <a href="https://github.com/"><i class="fa fa-2x fa-github" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;
-      <a href="https://www.instagram.com/accounts/login/"><i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a>
+    <iframe height="500"  width="800" name="mydetails"></iframe ><br>
+    <span class="follow">
+    <ul class="list">
+      <li><span>Follow Me On</span></li>
+      <li><a href="https://www.linkedin.com/login" target="_blank">
+        <i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a></li>
+      <li><a href="https://github.com/"><i class="fa fa-2x fa-github" aria-hidden="true"></i></a></li>
+      <li><a href="https://www.instagram.com/accounts/login/"><i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a></li>
+    </ul> 
       <p> Copyright &copy; 2023 Zoom Video Communications, Inc. All rights reserved. </p>
-    </footer>
+    </span>
   </body>
 </html>

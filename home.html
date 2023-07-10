@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Professional Summery</title>
     <style>
-       /* #Career{  */
-       /* color : blueviolet; background-color: aquamarine; */
-       /* } */
-      /* #Professional{ */
-       /* color: aqua;background-color: beige; */
+      /* #Career{  */
+      /* color : blueviolet; background-color: aquamarine; */
       /* } */
-      #Experience{
-       color: cadetblue; background-color: aliceblue;
+      /* #Professional{ */
+      /* color: aqua;background-color: beige; */
+      /* } */
+      #Experience {
+        color: cadetblue;
+        background-color: aliceblue;
       }
-      span{
-       color: red;
+      span {
+        color: red;
       }
     </style>
     <style>
@@ -24,18 +25,28 @@
         letter-spacing: 2px;
         color: rgb(40, 40, 80);
         text-shadow: 1px 2px;
-       background-color: rgb(202, 235, 236); 
+        background-color: rgb(202, 235, 236);
       }
+     .Summery{
+      letter-spacing: 2px;
+      word-spacing: 8px;
+     } 
+     .space li{
+      margin-bottom: 10px;
+     }
     </style>
   </head>
   <body>
     <h2 id="Career">Career Objectives:</h2>
     <p>
-      TO WORK IN ORGANIZATION WHERE I CAN LEARANE AND GROW MY SKILLS AND HELP
-      ORGANIZATIONAL GROWTH
+      <strong
+        >TO WORK IN ORGANIZATION WHERE I CAN LEARANE AND GROW MY SKILLS AND HELP
+        ORGANIZATIONAL GROWTH</strong
+      >
     </p>
     <h2 id="Professional">Professional Summery:</h2>
-    <ul>
+    <div class="Summery">
+    <ul class="space">
       <li>
         Having 1 year of experiance in developing Single page Web Application
         using <span>Angular8</span>, HTML5, CSS3, Bootstrap 5, JavaScript,
@@ -58,5 +69,6 @@
       <li>Knowledge of NodeeJS</li>
       <li>Ability to work with people at all levels in the program</li>
     </ul>
+  </div>
   </body>
 </html>
