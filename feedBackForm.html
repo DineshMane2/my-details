@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feed Back Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Roboto:wght@300&family=Signika+Negative&display=swap" rel="stylesheet">
+<style>
+ input[type="text"]{
+    width: 200px;
+    border-radius: 10px;
+    padding: 5px;
+    color:red;
+    font-weight: bold;
+    font-size: small;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(194, 227, 211);
+ }
+ input[type="email"]{
+    width: 200px;
+    border-radius: 10px;
+    padding: 5px;
+    color: red;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(194, 227, 211);
+ }
+  input[type="password"]{
+    width: 200px;
+    border-radius: 10px;
+    padding: 5px;
+    color: red;
+    font-weight: bold;
+    font-size: small;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif; 
+    background-color: rgb(194, 227, 211);
+ }
+ .table{
+    width: 200px;
+    border-radius: 10px;
+    padding: 5px;
+    color: cadetblue;
+    font-weight: bold;
+    font-size: small;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif; 
+    background-color: burlywood;
+    font-family: 'Poppins', sans-serif;
+ }
+ input[type="number"]{
+  width: 200px;
+    border-radius: 10px;
+    padding: 5px;
+    color: red;
+    font-weight: bold;
+    font-size: larger;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif; 
+    background-color: rgb(194, 227, 211);
+ }
+ input[type="date"]{
+  width: 200px;
+    border-radius: 2px;
+    padding: 5px;
+    color: red;
+    font-weight: bold;
+    font-size:medium;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif; 
+    background-color: rgb(194, 227, 211);}
+
+</style>
+  </head>
+  <body>
+        <!-- <h2>Feed Back Form</h2> -->
+        <fieldset style="background-color:rgb(227, 234, 227) ; color:  chocolate;">
+            <legend><h2>Feed Back Form</h2></legend>
+        <form>
+        <table>
+          <tbody>
+            <tr class="table">
+              <td><label>Student Name</label></td>
+              <td><input type="text"></td>
+            </tr>
+            <tr class="table">
+              <td><label>E-Mail</label></td>
+              <td><input type="email" /></td>
+            </tr>
+            <tr class="table">
+              <td><label>Password</label></td>
+              <td><input type="password" /></td>
+            </tr>
+            <tr class="table">
+              <td><label>Contact No.</label></td>
+              <td><input type="number" /></td>
+            </tr>
+            <tr class="table">
+              <td><label>Profile Photo</label></td>
+              <td><input type="file" /></td>
+            </tr>
+            <tr class="table">
+              <td><label>Date Of Birth</label></td>
+              <td><input type="date" /></td>
+            </tr>
+            <tr class="table">
+              <td><label>Gender</label></td>
+              <td>
+                <input type="radio" name="Gender" />Male
+                <input type="radio" name="Gender" />Female
+                <input type="radio" name="Gender" />Transgender
+              </td>
+            </tr>
+            <tr class="table">
+              <td><label>Marrital Status</label></td>
+              <td>
+                <input type="radio" name="Status" />yes
+                <input type="radio" name="Status" />NO
+              </td>
+            </tr>
+            <tr class="table">
+              <td><label>Known Technology and Stack</label></td>
+              <td>
+                <input type="checkbox" value="Angular" />Angular
+                <input type="checkbox" value="React" />React
+                <input type="checkbox" value="Python" />Python
+                <input type="checkbox" value="Git" />Git
+              </td>
+            </tr>
+            <tr class="table">
+              <td>Designation</td>
+              <td>
+                <select>
+                  <option value="UI Devloper">UI Devloper</option>
+                  <option value="FullStack Devloper">FullStack Devloper</option>
+                  <option value="BackEnd Devloper">BackEnd Devloper</option>
+                </select>
+              </td>
+            </tr>
+            <tr class="table">
+              <td><label>Address</label></td>
+              <td><textarea name="" id="15" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr class="table">
+              <td><input type="submit" style="color: blue; background-color: red;">Submit</td>
+              <td><input type="reset" style="color: blue; background-color: red;">Reset</td>
+            </tr>
+          </tbody>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>

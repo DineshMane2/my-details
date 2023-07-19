@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Card</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+   <style>
+    .photo-section{
+        display: inline-block;
+        padding: 7px;
+        margin: 10px;
+    }
+    .content-section{
+        display: inline-block; 
+        padding: 7px;
+        margin: 10px;
+        word-spacing: 2px;
+    }
+    .points li{
+        padding: 10px;
+        list-style-type: none;
+    }
+    .points li::before{
+        content: "✍️";
+    }
+    .points:hover{
+       
+    }
+    .para::selection{
+        color: rgb(239, 101, 101);
+    }
+   </style>
+</head>
+<body>
+    <div class="container">
+        <div class="photo-section">
+            <img src="simple.jpg" width="200px" height="300px">
+        </div>
+        <div class="content-section">
+            <h2> Compare Text Online</h2>
+            <ul class="points">
+                <li class="list1">Compare Text Online free</li>
+                <li>Support large file comparison</li>
+                <li>Ignore order and namespaces</li>
+                <li>Side by side diff view</li>
+                <li>Get results in tabular formate for quick referance</li>
+                <li>TEXT diff tool</li>
+                <li>REST API</li>
+            </ul>
+        </div>
+       <div>
+        <i class="fa fa-4x fa-cloud" aria-hidden="true"></i>
+        <span>Powered By</span> 
+        <h2>CloudServices</h2>
+    </div>
+</div>
+</body>
+</html>

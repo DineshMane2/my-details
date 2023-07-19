@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Card</title>
+    <style>
+        .div1, .div2, .div3{
+            margin-top: 50px;
+        }
+        body{
+            background-color: aliceblue;
+        }
+        .Basic{
+        display: inline-block;
+        width: 200px;
+        height: 250px;
+        /* By default position property values is static: Means top, left, bottom, right and z-index values won't be applied */
+        left: 100px;
+        top: 400px;
+        z-index: 200px;
+        position: static;
+        border: 2px red;
+        
+        }
+        .standard{
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+        /* By default position property values is static: Means top, left, bottom, right and z-index values won't be applied */
+        left: 100px;
+        top: 100px;
+        z-index: 200px;
+        position: static;
+        }
+        .standard1{
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+        /* By default position property values is static: Means top, left, bottom, right and z-index values won't be applied */
+        left: 100px;
+        top: 100px;
+        z-index: 200px;
+        position: static;
+       }
+        .div1{
+            background-color: rgb(94, 146, 148); 
+            align-content: center;
+            text-transform: uppercase;
+            font-size: larger;
+            height: 30px;
+            padding: 5px;
+            align-items: center;
+            padding-left: 50px;
+            padding-top: 20px;
+            position: relative;
+            top: 20px;
+        }
+        .div2{
+            background-color: rgb(177, 140, 211); 
+            align-content: center;
+            text-transform: uppercase;
+            font-size: larger;
+            padding-left: 48px;
+            height: 50px;
+            position: relative;
+            bottom: 50px;
+        }
+        .div3{
+            background-color: rgb(177, 140, 211); 
+            align-content: center;
+            text-transform: uppercase;
+            font-size: larger;
+            padding-left: 48px;
+            height: 50px;
+            position: relative;
+            bottom: -20px;
+        }
+      input{
+          background-color: rgb(94, 146, 148);
+          width: 140px;
+          height: 30px;
+          border-radius: 5px;
+        }
+        span{
+          align-content: center;
+          margin-left: 50px;
+          margin-bottom: 10px;
+          font-size: larger;
+          display: block;
+         margin-left: 80px;
+        }
+         .button{
+            width: 150px;
+            border-radius: 5px;
+            height: 30px;
+           margin-left: 20px;
+           background-color: rgb(94, 146, 148); 
+         }
+         li{
+            padding: 5px;
+         }
+    </style>
+</head>
+<body>
+    <div class="Basic">
+        <div class="div1">
+            Basic
+        </div>
+        <ul>
+       <li>Hosting</li>
+       <li>Domain</li>
+       <li>1 GB Space</li>
+       <li>Free SSL</li>
+       <li>1 Website Host</li>
+       </ul>
+       <span><strong>$5</strong></span> 
+       <button type="submit" class="button">BUY NOW</button>
+       </div>
+    </div>
+    <div class="standard">
+        <div class="div2">
+          Standard
+        </div>
+        <ul>
+       <li>Hosting</li>
+       <li>Domain</li>
+       <li>10 GB Space</li>
+       <li>Free SSL</li>
+       <li>4 Website Host</li>
+       </ul>
+       <span><strong>$10</strong></span> 
+       <button type="submit" class="button">BUY NOW</button> 
+    </div>
+    <div class="standard1">
+        <div class="div3">
+            Standard
+          </div>
+          <ul>
+         <li>Hosting</li>
+         <li>Domain</li>
+         <li>10 GB Space</li>
+         <li>Free SSL</li>
+         <li>4 Website Host</li>
+         </ul>
+         <span><strong>$20</strong></span> 
+         <button type="submit" class="button">BUY NOW</button> 
+      </div>
+    </div>
+</body>
+</html>
